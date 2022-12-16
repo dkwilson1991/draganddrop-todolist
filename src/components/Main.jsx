@@ -18,6 +18,7 @@ const Main = () => {
 
       const sourceCol = data[sourceColIndex];
       const destinationCol = data[destinationColIndex];
+
       const sourceTask = [...sourceCol.tasks];
 
       const destinationTask = [...destinationCol.tasks]
@@ -34,9 +35,9 @@ const Main = () => {
     } else {
       const sourceColIndex = data.findIndex((e) => e.id === source.droppableId);
       const sourseCol = data[sourceColIndex];
-      console.log(sourseCol);
+
       const sourceTask = [...sourseCol.tasks];
-      console.log(sourceTask);
+
       const [removed] = sourceTask.splice(source.index, 1);
       sourceTask.splice(destination.index, 0, removed);
 
