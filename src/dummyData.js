@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from "uuid";
 
 const dummyData = [{
   id: uuidv4(),
-  title: "Todo",
+  title: "Todo ASAP",
   tasks: [
     {
       id: uuidv4(),
@@ -20,7 +20,7 @@ const dummyData = [{
 },
 {
   id: uuidv4(),
-  title: "Todo",
+  title: "Todo Soon",
   tasks: [
     {
       id: uuidv4(),
@@ -38,7 +38,7 @@ const dummyData = [{
 },
 {
   id: uuidv4(),
-  title: "Todo",
+  title: "Todo Later",
   tasks: [
     {
       id: uuidv4(),

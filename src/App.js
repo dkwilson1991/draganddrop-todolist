@@ -1,9 +1,11 @@
 import './App.css';
+import Main from './components/Main';
 
 function App() {
   return (
     <div style={{padding: "50px" }}>
-      <h1 style={{margin: "20px" }}>Trello Mock</h1>
+      <h1 style={{marginBottom: "20px" }}>Trello Mock</h1>
+      <Main />
     </div>
   );
 }
